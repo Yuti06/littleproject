@@ -1,0 +1,84 @@
+body {
+    background-image: url('img/winter.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1 {
+    font-size:30px;
+    color:darkmagenta; 
+    text-align: center ;
+}
+p {
+    color:purple; 
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+pre { color: darkorchid;
+      background-color: lightpink;
+      font-size: 15px;
+      text-align: center;
+      padding: 20px;
+      border: 2px solid palevioletred;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+
+}
+
+table {
+    border-collapse: collapse;
+    width:100%;
+  }
+th,td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 2px solid purple;
+
+}
+
+tr {
+    border-bottom: 1px solid purple;
+}
+tr:hover {
+    background-color :violet;
+}
+h3 {
+    text-align: center;
+    color:darkorchid;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+div {
+    padding: 20px;
+    background-color:thistle;
+    margin-top: 40px;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+*{
+    box-sizing: border-box;
+}
+.row{
+    display: flex;
+}
+.column {
+    flex: 33.33%;
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#myheader {
+    background-color:mediumorchid;
+    text-align: center;
+    color: darkkhaki;
+    padding: 20px;
+    border:2px solid bisque;
+}
